@@ -36,17 +36,16 @@ h3 {
 }
 
 .moi {
-    background-image: url("Moi.png");
-    text-align: right;
-    margin-left: 1300px;
-    margin-right: 100px;
-    border: 2px solid black;
-    box-shadow: 5px 5px #ffffff;
+    float: right;
     height: 250px;
     width: 150px;
+    background-image:url("moi.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-top: 95px;
+    margin-right: 80px;
+    box-shadow: none;
 }
 
 div {
