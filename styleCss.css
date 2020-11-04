@@ -1,33 +1,126 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: bisque;
+    background-color: #ddd;
 }
 
 h1 {
     text-align: center;
     font-weight: bold;
     border: 3px solid black;
-    box-shadow: 10px 10px lightgrey;
+    box-shadow: 5px 5px #ffffff;
     height: 50px;
     padding-top: 15px;
     margin-top: 30px;
     margin-left: 500px;
     margin-right: 500px;
-    background-color: beige;
     color: #242428;
-    text-shadow: 5px 5px lightgrey;
+    text-shadow: 5px 5px #ffffff;
+    border-radius: 20px;
+    background-color: #c4c4c4;
 }
 
 h2 {
     font-weight: bold;
     text-decoration: underline black;
-    margin-left: 40px;
-    text-shadow: 3px 3px lightgrey;
+    margin-left: 60px;
+    text-shadow: 3px 3px #ffffff;
+    margin-top: 50px;
 }
 
-img {
+h3 {
+    font-weight: bold;
+    text-decoration: underline black;
+    margin-left: 60px;
+    text-shadow: 3px 3px #ffffff;
+    margin-top: 50px;
+}
+
+.moi {
+    background-image: url("Moi.png");
+    text-align: right;
+    margin-left: 1300px;
+    margin-right: 100px;
     border: 2px solid black;
-    box-shadow: 10px 10px lightgrey;
+    box-shadow: 5px 5px #ffffff;
     height: 250px;
-    width: auto;
+    width: 150px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div {
+    font-weight: bold;
+    border: 2px solid #181717;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 5px 5px #ffffff;
+    line-height: 25px;
+    background-color: #c4c4c4;
+}
+
+th {
+    font-family: "Arial Black", sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+td {
+    font-style: italic;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pro {
+    padding-left: 20px;
+    font-style: italic;
+}
+
+#form {
+    margin-left: 60px;
+    font-style: italic;
+}
+
+ul {
+    margin-left: 40px;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.formul {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#name {
+    margin-left: 150px;
+}
+
+#mail {
+    margin-left: 83px;
+}
+
+#message {
+    margin-left: 115px;
+}
+#formulaire {
+    font-weight: bold;
+    border: 2px solid #181717;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 1150px;
+    margin-top: 30px;
+    box-shadow: 5px 5px #ffffff;
+    line-height: 25px;
+    background-color: #c4c4c4;
+}
+
+a {
+    margin-left: 20px;
 }

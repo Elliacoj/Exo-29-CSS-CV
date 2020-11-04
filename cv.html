@@ -7,30 +7,67 @@
 </head>
 <body>
     <h1>Jocaille Amaury</h1>
-    <img src="Moi.png" alt="Moi" height="517" width="290"/>
+    <div class="moi">
+    </div>
     <h2>Coordonnées et contacts</h2>
     <div>
-        <p><span>Date de naissance:</span> 26 12 1991</p>
-        <p><span>Adresse:</span> rue de la Station, 5</p>
-        <p>6590 MOMIGNIES</p>
-        <p><span>Adresse mail:</span> amaury.jocaille@hotmail.com</p>
-        <p><span>Profil Github:</span> https://github.com/Elliacoj</p>
-        <p><span>Profil LinkedIn:</span></p>
+        <table>
+            <tr>
+                <th>Date de naissance:</th>
+                <td>26 12 1991</td>
+            </tr>
+            <tr>
+                <th>Adresse:</th>
+                <td>rue de la Station, 5 6590 MOMIGNIES</td>
+            </tr>
+            <tr>
+                <th>Adresse mail:</th>
+                <td>amaury.jocaille@hotmail.com</td>
+            </tr>
+            <tr>
+                <th>Profil Github:</th>
+                <td>https://github.com/Elliacoj</td>
+            </tr>
+            <tr>
+                <th>Profil LinkedIn:</th>
+                <td></td>
+            </tr>
+        </table>
     </div>
     <h2>Parcours scolaire</h2>
     <div>
-        <p><span>De 2003 à 2007:</span> en électro-mécanique de la 2e secondaire à la 4e.</p>
-        <p>
-            <span>De 2007 à 2010:</span> changement d'orientation pour passer en section électricité de la 5e à la 7e, avec optention du diplôme
-            d'électricitien installateur-monteur, dépanneur électroménagés et diplôme de gestion.
-        </p>
-        <p><span>2016:</span> formation de technicien de surface industrielle par la Miressem.</p>
-        <p><span>De 2016 à 2017:</span> formation de commis de cuisine à l'école industrielle et commercial de chimay.</p>
-        <p><span>De 2017 à 2018:</span> formation de technicien de bureau (secrétariat) à l'école industrielle et commercial de chimay.</p>
-        <p><span>De 2020 à 2021:</span> formation de développeur web/web mobile à l'école UPTO de Fourmies.</p>
+        <table>
+            <tr>
+                <th>De 2003 à 2007:</th>
+                <td>en électro-mécanique de la 2e secondaire à la 4e.</td>
+            </tr>
+            <tr>
+                <th>De 2007 à 2010:</th>
+                <td>
+                    changement d'orientation pour passer en section électricité de la 5e à la 7e, avec optention du diplôme
+                    d'électricitien installateur-monteur, dépanneur électroménagés et diplôme de gestion.
+                </td>
+            </tr>
+            <tr>
+                <th>2016:</th>
+                <td>formation de technicien de surface industrielle par la Miressem.</td>
+            </tr>
+            <tr>
+                <th>De 2016 à 2017:</th>
+                <td>formation de commis de cuisine à l'école industrielle et commercial de chimay.</td>
+            </tr>
+            <tr>
+                <th>De 2017 à 2018:</th>
+                <td>formation de technicien de bureau (secrétariat) à l'école industrielle et commercial de chimay.</td>
+            </tr>
+            <tr>
+                <th>De 2020 à 2021:</th>
+                <td>formation de développeur web/web mobile à l'école UPTO de Fourmies.</td>
+            </tr>
+        </table>
     </div>
     <h2>Parcours professionnel</h2>
-    <div>
+    <div class="pro">
         <p>Stage chez un indépendant 1 mois, 3 années de suite en électricité (2007 à 2010 chez Bernard Hallet).</p>
         <p>Stage dans l'entreprise "La maison des services" de Momignies pour la formation de technicien de surface industrielle pendant 1 mois (2016).</p>
         <p>Stage dans le restaurant "L'Original" de Chimay pour la formation de commis de cuisine pendant 1 mois (2017).</p>
@@ -44,24 +81,26 @@
         <li>Le cinéma</li>
     </ul>
     <h3>Formulaire de contact</h3>
-    <p>
+    <p id="form">
         Si vous désirez me contacter, veuillez remplir le formulaire ci-dessous avec votre nom, votre adresse mail et le message que
         vous voulez me transmettre, je vous recontacterai dans les plus bref délais.
     </p>
-    <form action="contact.php" method="post">
-        <div>
-            <label for="name">Votre nom</label>
-            <input type="text" id="name" name="user_name">
-        </div>
-        <div>
-            <label for="mail">Votre adresse mail</label>
-            <input type="email" id="mail" name="user_name">
-        </div>
-        <div>
-            <label for="message">Votre message</label>
-            <textarea name="user_name" id="message"></textarea>
-        </div>
-        <a href="mailto:amaury.jocaille@hotmail.com"><input type="button" value="Envoyer"></a>
-    </form>
+    <div id="formulaire">
+        <form action="contact.php" method="post">
+            <p class="formul">
+                <label for="name">Votre nom:</label>
+                <input type="text" id="name" name="user_name">
+            </p>
+            <p class="formul">
+                <label for="mail">Votre adresse mail:</label>
+                <input type="email" id="mail" name="user_name">
+            </p>
+            <p class="formul">
+                <label for="message">Votre message:</label>
+                <textarea name="user_name" id="message"></textarea>
+            </p>
+            <p><a href="mailto:amaury.jocaille@hotmail.com"><input type="button" value="Envoyer"></a></p>
+        </form>
+    </div>
 </body>
 </html>

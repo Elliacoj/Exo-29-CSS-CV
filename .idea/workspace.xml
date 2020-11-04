@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d52c8f9-c49d-4ad2-be41-0dbaab9fb72f" name="Default Changelist" comment="Modif">
-      <change afterPath="$PROJECT_DIR$/.idea/Exo-29-CSS-CV.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Moi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styleCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleCss.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +75,10 @@
       <workItem from="1604487419682" duration="63000" />
       <workItem from="1604487505120" duration="6000" />
       <workItem from="1604487541479" duration="25000" />
-      <workItem from="1604487577279" duration="2993000" />
+      <workItem from="1604487577279" duration="3224000" />
+      <workItem from="1604492716995" duration="275000" />
+      <workItem from="1604493012398" duration="7012000" />
+      <workItem from="1604500057480" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="Modif">
       <created>1604487848747</created>
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604488031446</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modif">
+      <created>1604492675573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604492675573</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,9 +131,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Modif" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="515" y="260" key="Vcs.Push.Dialog.v2" timestamp="1604488032784">
+    <state x="515" y="260" key="Vcs.Push.Dialog.v2" timestamp="1604492676624">
       <screen x="0" y="0" width="1846" height="1080" />
     </state>
-    <state x="515" y="260" key="Vcs.Push.Dialog.v2/1920.98.1286.768/0.0.1846.1080@0.0.1846.1080" timestamp="1604488032784" />
+    <state x="515" y="260" key="Vcs.Push.Dialog.v2/1920.98.1286.768/0.0.1846.1080@0.0.1846.1080" timestamp="1604492676624" />
+    <state x="579" y="250" key="run.anything.popup" timestamp="1604498424150">
+      <screen x="0" y="0" width="1846" height="1080" />
+    </state>
+    <state x="579" y="250" key="run.anything.popup/1920.98.1286.768/0.0.1846.1080@0.0.1846.1080" timestamp="1604498424150" />
   </component>
 </project>
