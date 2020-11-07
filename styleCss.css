@@ -1,127 +1,98 @@
 body {
     font-family: Arial, sans-serif;
+    font-weight: bold;
     background-image: url("fond.jpg");
     background-size: 100%;
     background-attachment: fixed;
 }
 
-h1 {
+#titre {
+    position: relative;
+    width: 40%;
+    height: 15%;
+    margin-left: 30%;
     text-align: center;
-    font-weight: bold;
-    border: 3px solid black;
-    box-shadow: 5px 5px #7bc1de;
-    height: 50px;
-    padding-top: 15px;
-    margin-top: 30px;
-    margin-left: 500px;
-    margin-right: 500px;
-    color: #242428;
-    text-shadow: 5px 5px #7bc1de;
-    border-radius: 20px;
-    background-color: #68a7f5;
+    font-size: 20px;
+    border: 2px solid #847d74;
+    box-shadow: 13px 12px 25px lightgrey, -13px -12px 25px lightgrey;
+    color: #504a46;
+    text-shadow: 13px 12px 25px lightgrey, -13px -12px 25px lightgrey;
+    background-color: #279ade;
 }
 
-h2 {
-    font-weight: bold;
-    text-decoration: underline black;
-    margin-left: 60px;
-    text-shadow: 3px 3px #7bc1de;
-    margin-top: 50px;
-}
-
-h3 {
-    font-weight: bold;
-    text-decoration: underline black;
-    margin-left: 60px;
-    text-shadow: 3px 3px #7bc1de;
-    margin-top: 50px;
-}
-
-.moi {
-    float: right;
-    height: 250px;
-    width: 150px;
-    background-image:url("moi.png");
-    background-position: center;
+#moi {
+    position: absolute;
+    background-image: url("moi.png");
     background-size: 100%;
-    background-repeat: no-repeat;
-    margin-top: 95px;
-    margin-right: 80px;
-    box-shadow: none;
+    height: 40%;
+    width: 17%;
+    border: 3px solid #847d74;
+    border-radius: 150px;
+    right: 12%;
+    top: 33%;
 }
 
-div {
-    font-weight: bold;
-    border: 2px solid #181717;
-    border-radius: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    box-shadow: 5px 5px #7bc1de;
-    line-height: 25px;
-    background-color: #68a7f5;
-}
-
-th {
-    font-family: "Arial Black", sans-serif;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 200px;
+.titre {
+    position: relative;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    height: 20%;
+    margin-top: 5%;
+    font-style: italic;
+    opacity: 0.7;
+    left: 12%;
 }
 
 td {
-    font-style: italic;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 4%;
+    font-weight: normal;
+    height: 30px;
+    opacity: 0.5;
 }
 
-.pro {
-    padding-left: 20px;
+#parcoursc, #pro, #coord, #formulaire {
+    position: relative;
+    width: 60%;
+    left: 12%;
+    border: 3px solid #847d74;
+    box-shadow: 5px 5px 20px lightgrey, -5px -5px 20px lightgrey;
+    text-align: left;
+    padding-left: 1%;
     font-style: italic;
+    background-color: #279ade;
 }
 
-#form {
-    margin-left: 60px;
-    font-style: italic;
+#coord {
+    width: 40%;
+}
+
+#parcoursc th {
+    width: 20%;
+}
+
+#pro p {
+    opacity: 0.5;
+    font-weight: normal;
 }
 
 ul {
-    margin-left: 40px;
+    left: 12%;
     font-style: italic;
-    line-height: 25px;
+    opacity: 0.5;
+    font-weight: normal;
+    margin-left: 10%;
 }
 
-.formul {
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#form {
+    font-style: italic;
+    opacity: 0.5;
+    font-weight: normal;
+    margin-left: 12%;
+    width: 60%;
+    margin-bottom: 3%;
 }
 
-#name {
-    margin-left: 150px;
-}
-
-#mail {
-    margin-left: 83px;
-}
-
-#message {
-    margin-left: 115px;
-}
-#formulaire {
-    font-weight: bold;
-    border: 2px solid #181717;
-    border-radius: 20px;
-    margin-left: 40px;
-    margin-right: 1150px;
-    margin-top: 30px;
-    box-shadow: 5px 5px #7bc1de;
-    line-height: 25px;
-    background-color: #68a7f5;
-}
-
-a {
-    margin-left: 20px;
+#name, #mail, #message {
+    position: absolute;
+    left: 30%;
 }
